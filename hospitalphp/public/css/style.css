@@ -1,0 +1,166 @@
+body {
+  margin : 0 auto;
+  width : 700px;
+  background-color: #EEEEEE;
+}
+
+#headerIndex {
+  position: relative;
+  width: 1075px;
+  height: 175px;
+  background-color: #FFFFFF;
+  left: -170px;
+  bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#inBannerPhotoIndex {
+  position: relative;
+  length: 170px;
+  width: 170px;
+  bottom: 45px;
+}
+
+#bannerh1Index {
+  position: relative;
+  text-align: center;
+  top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navIndex {
+  position: relative;
+  bottom: 60px;
+  width: 905px;
+  background-color: #ededed;
+}
+
+#caroselIndex{
+  position: relative;
+  height: 275px;
+  width: 1075px;
+  bottom: 75px;
+  box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#mainIndex {
+  height: 1100px;
+  position: relative;
+  width: 1075px;
+  left: -170px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+  position: relative;
+  padding-left: 20px;
+  bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#pIndex {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+li {
+  display: inline;
+  text-decoration: none;
+}
+
+li a {
+  display: inline;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+.activeItem {
+  color: red;
+}
+
+#footerIndex {
+  background-color: #7f7f7f;
+  position: relative;
+  width: 1075px;
+  height: 200px;
+  left: -170px;
+  bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#footerText {
+  position: relative;
+  text-align: center;
+  top: 50%;
+}
+
+table {
+  position: relative;
+  width : 950px;
+  left: 20px;
+  bottom: 30px; 
+}
+
+.createBtnUnder {
+  position: relative;
+  bottom: 30px;
+  padding-left: 20px;
+}
+
+table, td, th {
+  border : 1px #ddd solid;
+  border-collapse : collapse;
+  background-color: #ccc;
+  color : black;
+}
+
+td, th {
+  padding : 2px;
+}
+
+th {
+  text-align : left;
+}
+
+#patientTr:hover {
+  cursor: pointer;
+}
+
+.notPatientTr:hover {
+  cursor: default;
+}
+
+td.center{
+  text-align : center;
+}
+
+a {
+  color : black;
+}
+p.options{
+  text-align : right;
+}
+
+label {
+  display : inline-block;
+  width : 100px;
+}
+form div {
+  margin: 5px 0;
+}
+
+.actionbutton {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
